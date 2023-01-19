@@ -9,7 +9,7 @@ This is my crop yield prediction project repository. It contains all the necessa
 ## Contents
 
 + [***Requirements for replication***](#Requirements-for-replication)
-+ [***Data sources and retrieval***](##Data-sources,-retrieval-and-preprocessing)
++ [***Data sources and retrieval***](##Data-sources-retrieval-and-preprocessing)
 + [***Models and results***](#Models-and-results)
 
 ---
