@@ -9,7 +9,7 @@ This is my crop yield prediction project repository. It contains all the necessa
 ## Contents
 
 + [***Requirements for replication***](#Requirements-for-replication)
-+ [***Data sources and retrieval***](##Data-sources-and-retrieval)
++ [***Data sources and retrieval***](##Data-sources,-retrieval-and-preprocessing)
 + [***Models and results***](#Models-and-results)
 
 ---
@@ -44,9 +44,9 @@ The code allows to select the states of interest:
 
 Apply the crop mask:
 
-Crop mask             |  Crop mask: closer          |  Crop mask: closest          |
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="./img/crop_layer_1.png" alt="drawing" width="300"/>  |  <img src="./img/crop_layer_2.png" alt="drawing" width="300"/> | <img src="./img/crop_layer_3.png" alt="drawing" width="300"/>
+Crop mask        |  Crop mask: closer        |
+|:-------------------------:|:-------------------------:
+|  <img src="./img/crop_layer_2.png" alt="drawing" width="300"/> | <img src="./img/crop_layer_3.png" alt="drawing" width="300"/>
 
 Sample the data within the boundaries of each state:
 
