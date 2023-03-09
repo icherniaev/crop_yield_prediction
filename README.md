@@ -10,7 +10,6 @@ This is my crop yield prediction project repository. It contains all the necessa
 
 + [***Requirements for replication***](#Requirements-for-replication)
 + [***Data sources and retrieval***](##Data-sources-retrieval-and-preprocessing)
-+ [***Models and results***](#Models-and-results)
 
 ---
 
@@ -57,27 +56,6 @@ Sample the data within the boundaries of each state:
 Plot the data for each year on a Google server and extract it in a .csv format.
 The obtained data is quite raw and can be preprocessed using any desirable software. 
 The final datasets are available in [data](data) folder, where each dataset corresponds the a certain period (data_march, for instance, uses data only up to March for prediction). See additional details about data preparation in the [paper](paper.pdf)
-
----
-
-## Models and results
-
-Three models have been trained on the given data:
-+ Linear Regression
-+ Decision Trees
-+ Gradient Boosting Over Decision Trees (CatBoost implementation)
-
-All three models were trained on four data time-spans: up to March, June, August and including all the year.
-
-The models were trained for two metrics:
-+ $RMSE(\hat{y}, y) = \sqrt{MSE(\hat{y}, y)} = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(\hat{y_i}-y_i)^2}$
-+ $R^2(\hat{y}, y) = 1 - \frac{\sum_{i=1}^{n}(y_i - \hat{y_i})^2}{\sum_{i=1}^{n}(y_i - \bar{y_i})^2}$
-
-The follwing results were achieved:
-
-<p align="center">
-<img src="./img/table.jpg", width=800>
-</p>
 
 ---
 
